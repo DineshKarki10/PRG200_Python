@@ -1,4 +1,4 @@
-# inputs 
+# Inputs 
 no_of_trekers = int(input("Enter the number Trekers: "))
 ACAP_TIMS_charge = float(input("Enter the sum of ACAP permit charge and TIMS charge: "))
 

@@ -1,18 +1,18 @@
-# take input earning
+# Take input earning
 earn_in_usd = float(input("Enter earned amount in USD: "))
-# convert to nepali
+# Convert to nepali
 earn_in_nrp= earn_in_usd*150
-# input service charge
-service_charge = float(input("Entert the service rate: "))
+# Input service charge
+service_charge = float(input("Enter the service rate: "))
 # Output actual earning
 print((f"Actual earning in NRP: {earn_in_nrp}"))
-# calculate reduced amt
+# Calculate reduced amt
 reduce_amt= (service_charge/100)*earn_in_nrp
-# final outputs
+# Final outputs
 print((f"Deduction : {reduce_amt}"))
-print((f"You will recevive: {earn_in_nrp-reduce_amt}"))
+print((f"You will receive: {earn_in_nrp-reduce_amt}"))
 
-# yearly
+# Yearly
 nrp = earn_in_nrp*12
 reduce = reduce_amt*12
 # Output
